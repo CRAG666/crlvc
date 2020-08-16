@@ -3,5 +3,8 @@
 echo "=> Moving configuration <-"
 cp crlvc.json ~/.config/
 
+echo "dependency-checker"
+sudo pip3 install docopt
+
 echo "=> Moving cli to Bin"
 sudo cp /usr/local/bin/

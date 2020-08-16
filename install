@@ -1,0 +1,7 @@
+#! /usr/bin/sh
+
+echo "=> Moving configuration <-"
+cp crlvc.json ~/.config/
+
+echo "=> Moving cli to Bin"
+sudo cp /usr/local/bin/

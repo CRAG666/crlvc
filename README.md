@@ -47,7 +47,7 @@ add support to javascript and objective c:
 {
 ....... more..........
      "js": "node {file}",
-     "objective-c": "cd {dir} && gcc -framework Cocoa {fileName} -o {fileNameWithoutExt} && {dir}{fileNameWithoutExt}"
+     "m": "cd {dir} && gcc -framework Cocoa {fileName} -o {fileNameWithoutExt} && {dir}{fileNameWithoutExt}"
 
 }
 

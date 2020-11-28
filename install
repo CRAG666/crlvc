@@ -7,4 +7,4 @@ echo "dependency-checker"
 sudo pip3 install docopt
 
 echo "=> Moving cli to Bin"
-sudo cp /usr/local/bin/
+sudo cp crlvc /usr/local/bin/
